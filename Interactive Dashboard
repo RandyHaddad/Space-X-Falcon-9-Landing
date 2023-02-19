@@ -1,5 +1,3 @@
-Dashboard link : https://randyelhadda-8050.theiadocker-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/
-
 import pandas as pd
 import dash
 import dash_html_components as html
@@ -46,9 +44,7 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
 
                             html.Div(dcc.Graph(id='success-payload-scatter-chart')),
                             ])
-
-# TASK 2:
-# Add a callback function for `site-dropdown` as input, `success-pie-chart` as output     
+  
 @app.callback(
     Output(component_id='success-pie-chart', component_property='figure'), 
     Input(component_id='site-dropdown', component_property='value'))
@@ -97,3 +93,5 @@ def update_scattergraph(site_dropdown,payload_slider):
 
 if __name__ == '__main__':
     app.run_server()
+
+##Dashboard link : https://randyelhadda-8050.theiadocker-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/
