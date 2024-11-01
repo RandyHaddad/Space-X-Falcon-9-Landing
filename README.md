@@ -1,6 +1,6 @@
 # SpaceX Falcon 9 First Stage Landing Prediction
 
-[**Jump to First Stage Landing Prediction**](#first-stage-landing-prediction)
+[**👉 Jump to Full Prediction Notebook**](https://github.com/RandyHaddad/Space-X-Falcon-9-Landing/blob/master/Space-X-Falcon-9-Landing-Prediction.ipynb)
 
 Thank you to IBM for support and resources that made this project possible.
 
